@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .form-input {
+        @apply block w-full my-4 rounded-xl;
+        @apply border p-2 border-gray-300 bg-gray-100;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply text-lg font-bold px-8 py-2 rounded-full cursor-pointer 
+    }
+    .btn-primary {
+        @apply bg-primary text-lg font-bold text-white px-8 py-2 rounded-full cursor-pointer hover:bg-red-700 transition-all
+    }
+}
